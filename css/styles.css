@@ -408,6 +408,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     margin-right: -30px;
+    margin-bottom: -30px;
 }
 
 .our-work-item {
@@ -415,6 +416,12 @@ img {
     margin-right: 30px;
     margin-bottom: 30px;
     border: 1px solid #eeeeee;
+}
+
+.our-work-item:hover,
+.our-work-item:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .our-works-description {
