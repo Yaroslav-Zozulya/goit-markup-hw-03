@@ -183,6 +183,8 @@ img {
 
 .order-service-button {
     display: block;
+    min-width: 200px;
+    min-height: 50px;
     padding: 10px 32px;
     margin: 0 auto;
     border: 0;
