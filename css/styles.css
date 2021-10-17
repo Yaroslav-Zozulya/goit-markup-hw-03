@@ -169,6 +169,7 @@ img {
 
 .order-service-button {
     display: block;
+    padding: 10px 32px;
     margin: 0 auto;
     border: 0;
     border-radius: 4px;
@@ -189,6 +190,10 @@ img {
 .features {
     font-size: 14px;
     letter-spacing: 0.03em;
+}
+
+.features-list {
+    display: flex;
 }
 
 .features-title {
