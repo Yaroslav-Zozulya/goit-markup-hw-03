@@ -161,12 +161,9 @@ img {
    ========================================================================== */
 
 .order-service {
-    background-color: var(--secondary-background-color);
-}
-
-.order-service-container {
     padding-top: 197px;
     padding-bottom: 200px;
+    background-color: var(--secondary-background-color);
 }
 
 .order-service-title {
@@ -207,9 +204,6 @@ img {
 .features {
     font-size: 14px;
     letter-spacing: 0.03em;
-}
-
-.features-container {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -244,7 +238,7 @@ img {
 /* about us
    ========================================================================== */
 
-.about-us-container {
+.about-us {
     padding-bottom: 94px;
 }
 
@@ -272,12 +266,9 @@ img {
    ========================================================================== */
 
 .our-team {
-    background-color: var(--third-background-color);
-}
-
-.our-team-container {
     padding-top: 94px;
     padding-bottom: 94px;
+    background-color: var(--third-background-color);
 }
 
 .our-team-title {
@@ -327,12 +318,9 @@ img {
 /* footer
    ========================================================================== */
 .footer {
-    background-color: var(--secondary-background-color);
-}
-
-.footer-container {
     padding-top: 60px;
     padding-bottom: 60px;
+    background-color: var(--secondary-background-color);
 }
 
 .footer-address {
@@ -370,7 +358,7 @@ img {
 /* our works
    ========================================================================== */
 
-.our-works-container {
+.our-works {
     padding-top: 94px;
     padding-bottom: 92px;
 }
