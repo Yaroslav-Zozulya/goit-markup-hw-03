@@ -22,48 +22,56 @@
         <link rel="stylesheet" href="./css/styles.css" />
     </head>
     <body>
-        <header>
-            <a href="./index.html" lang="en" class="logo"
-                >Web<span>Studio</span></a
-            >
-            <nav class="navigation">
-                <ul>
-                    <li>
-                        <a href="./index.html" class="navigation-link current"
-                            >Студия</a
+        <header class="header">
+            <div class="container header-container">
+                <a href="./index.html" lang="en" class="logo"
+                    >Web<span>Studio</span></a
+                >
+                <nav class="navigation">
+                    <ul class="navigation-list">
+                        <li class="navigation-item">
+                            <a
+                                href="./index.html"
+                                class="navigation-link current"
+                                >Студия</a
+                            >
+                        </li>
+                        <li class="navigation-item">
+                            <a href="./portfolio.html" class="navigation-link"
+                                >Портфолио</a
+                            >
+                        </li>
+                        <li class="navigation-item">
+                            <a href="#" class="navigation-link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="contacts">
+                    <li class="contacts-item">
+                        <a
+                            href="mailto:info@devstudio.com"
+                            class="contacts-link"
+                            >info@devstudio.com</a
                         >
                     </li>
-                    <li>
-                        <a href="./portfolio.html" class="navigation-link"
-                            >Портфолио</a
+                    <li class="contacts-item">
+                        <a href="tel:+380961111111" class="contacts-link"
+                            >+38 096 111 11 11</a
                         >
-                    </li>
-                    <li>
-                        <a href="#" class="navigation-link">Контакты</a>
                     </li>
                 </ul>
-            </nav>
-            <ul class="contacts">
-                <li>
-                    <a href="mailto:info@devstudio.com" class="contacts-link"
-                        >info@devstudio.com</a
-                    >
-                </li>
-                <li>
-                    <a href="tel:+380961111111" class="contacts-link"
-                        >+38 096 111 11 11</a
-                    >
-                </li>
-            </ul>
+            </div>
         </header>
         <main>
             <section class="order-service">
-                <h1 class="order-service-title">
-                    Эффективные решения для вашего бизнеса
-                </h1>
-                <button type="button" class="order-service-button">
-                    Заказать услугу
-                </button>
+                <div class="container">
+                    <h1 class="order-service-title">
+                        Эффективные решения для вашего бизнеса
+                    </h1>
+                    <button type="button" class="order-service-button">
+                        Заказать услугу
+                    </button>
+                </div>
             </section>
             <section class="features">
                 <h2 class="visually-hidden">Особенности</h2>
