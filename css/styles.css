@@ -15,7 +15,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--primery-title-color);
     background-color: var(--first-background-color);
-    background-size: 100%;
+    background-size: cover;
 }
 
 ul {
