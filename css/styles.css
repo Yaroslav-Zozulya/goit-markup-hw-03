@@ -150,7 +150,15 @@ img {
     background-color: var(--secondary-background-color);
 }
 
+.order-service-container {
+    padding-top: 197px;
+    padding-bottom: 200px;
+}
+
 .order-service-title {
+    width: 696px;
+    margin: 0 auto 30px;
+    text-align: center;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -160,6 +168,8 @@ img {
 }
 
 .order-service-button {
+    display: block;
+    margin: 0 auto;
     border: 0;
     border-radius: 4px;
     font-weight: 700;
