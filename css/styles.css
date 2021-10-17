@@ -365,7 +365,7 @@ img {
 
 .our-works-button-list {
     display: flex;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     justify-content: center;
 }
 
