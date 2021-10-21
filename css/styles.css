@@ -120,6 +120,8 @@ img {
 
 .logo-header {
     margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .logo span {
@@ -151,6 +153,11 @@ img {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primery-text-color);
+}
+
+.contacts-link {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .contacts-item:not(:last-child) {
@@ -210,9 +217,13 @@ img {
 
 .features-list {
     display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
 }
 
 .features-item {
+    flex-basis: calc(100% / 4 - 30px);
+    margin-right: 30px;
     width: 270px;
 }
 
