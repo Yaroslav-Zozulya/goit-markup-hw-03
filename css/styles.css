@@ -227,10 +227,6 @@ img {
     width: 270px;
 }
 
-.features-item:not(:last-child) {
-    margin-right: 30px;
-}
-
 .features-title {
     margin-bottom: 10px;
 }
