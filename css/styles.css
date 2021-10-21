@@ -426,6 +426,7 @@ img {
     border-right: 1px solid var(--our-work-item-border);
     border-bottom: 1px solid var(--our-work-item-border);
     border-left: 1px solid var(--our-work-item-border);
+    background-color: var(--first-background-color);
 }
 
 .our-works-title {
